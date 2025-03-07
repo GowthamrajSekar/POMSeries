@@ -100,8 +100,8 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						<!--<suiteXmlFile>src\test\resources\testrunner\testng_regression.xml</suiteXmlFile>-->
-							<suiteXmlFile>${suiteXml}</suiteXmlFile>
+						<suiteXmlFile>src\test\resources\testrunner\testng_regression.xml</suiteXmlFile>
+							<!--<suiteXmlFile>${suiteXml}</suiteXmlFile>-->
 					</suiteXmlFiles>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
