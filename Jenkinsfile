@@ -38,7 +38,7 @@ pipeline
         stage('Regression Automation Tests') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/naveenanimation20/Sept2024POMSeries.git'
+                    git 'https://github.com/GowthamrajSekar/POMSeries'
                     sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunner/testng_regression.xml"
                     
                 }
