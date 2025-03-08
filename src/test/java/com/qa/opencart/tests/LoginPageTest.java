@@ -28,7 +28,7 @@ public class LoginPageTest extends BaseTest {
 	}
 	@Description("Checking Login URL Checking")
 	@Severity(SeverityLevel.MINOR)
-	@Test(enabled = false)
+	@Test
 	public void loginPageURLTest() {
 		String actURL = loginPage.getLoginPageURL();
 		Assert.assertTrue(actURL.contains(AppConstants.LOGIN_PAGE_URL_FRACTION), AppError.URL_NOT_FOUND_ERROR); 
