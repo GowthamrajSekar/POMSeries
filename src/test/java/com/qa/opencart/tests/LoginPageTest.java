@@ -35,7 +35,7 @@ public class LoginPageTest extends BaseTest {
 	}
 	@Description("Checking Forget Password  Link ")
 	@Severity(SeverityLevel.CRITICAL)
-	@Test(enabled = false)
+	@Test
 	public void forgotPwdLinkExistTest() {
 		Assert.assertTrue(loginPage.isForgotPwdLinkExist(), "Link not available");
 		
@@ -50,7 +50,7 @@ public class LoginPageTest extends BaseTest {
 	}
 	@Description("Checking Login page Logo")
 	@Severity(SeverityLevel.CRITICAL)
-	@Test(enabled = false)
+	@Test
 	public void logoTest() {
 		Assert.assertTrue(commonsPage.isLogoDisaplayed(), AppError.LOGO_NOT_FOUND_ERROR);
 	}
@@ -65,7 +65,7 @@ public class LoginPageTest extends BaseTest {
 	}
 	@Description("Checking Login Footer ")
 	@Severity(SeverityLevel.CRITICAL)
-	@Test(dataProvider="getFooter", enabled = false)
+	@Test(dataProvider="getFooter")
 	public void footerTest(String footerLink) {
 		Assert.assertTrue(commonsPage.checkFooterLink(footerLink));
 		
