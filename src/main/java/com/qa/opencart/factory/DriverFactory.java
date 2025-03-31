@@ -80,8 +80,7 @@ public class DriverFactory {
 			log.error("Plz pass the valid browser name: " + browserName);
 			throw new FrameworkException("Enter valid Browser");
 		}
-
-		getDriver().manage().deleteAllCookies();
+	    getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
 		getDriver().get(prop.getProperty("url"));
 		return getDriver();
