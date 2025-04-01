@@ -11,15 +11,24 @@
 
 	</listeners>
 
-	<!--<test name="Login Page Test Chrome">
+<!--	<test name="Login Page Test Chrome">
 		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="126.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>-->
 	
-	<test name="Login Page Test Firfox">
+	<!--<test name="Login Page Test Firfox">
 		<parameter name="browser" value="firefox" />
+		<parameter name="browserversion" value="125.0" />
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test>-->
+	<test name="Login Page Test Firfox_124.0">
+		<parameter name="browser" value="firefox" />
+		<parameter name="browserversion" value="124.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
