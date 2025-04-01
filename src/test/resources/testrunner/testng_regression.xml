@@ -14,6 +14,7 @@
 <!--	<test name="Login Page Test Chrome">
 		<parameter name="browser" value="chrome" />
 		<parameter name="browserversion" value="126.0" />
+		<parameter name = "testname" value="Login Pgae test" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
@@ -22,6 +23,7 @@
 	<!--<test name="Login Page Test Firfox">
 		<parameter name="browser" value="firefox" />
 		<parameter name="browserversion" value="125.0" />
+		<parameter name = "testname" value="Login Pgae test" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
@@ -29,6 +31,7 @@
 	<test name="Login Page Test Firfox_124.0">
 		<parameter name="browser" value="firefox" />
 		<parameter name="browserversion" value="124.0" />
+		<parameter name = "testname" value="Login Pgae test" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
@@ -43,16 +46,20 @@
 	
 
 
-	<!--<test name="Home Page Test">
+	<!--<test name="Login Page Test Firfox_124.0">
 		<parameter name="browser" value="firefox" />
+		<parameter name="browserversion" value="124.0" />
+		<parameter name = "testname" value="Home Pgae test" />
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
 	</test>
 
 
-	<test name="Product Info Page Test">
-		<parameter name="browser" value="edge" />
+	<test name="Login Page Test Firfox_124.0">
+		<parameter name="browser" value="firefox" />
+		<parameter name="browserversion" value="124.0" />
+		<parameter name = "testname" value="Product Info Pgae test" />
 		<classes>
 			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
 		</classes>
